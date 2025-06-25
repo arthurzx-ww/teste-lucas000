@@ -46,6 +46,7 @@ body {
   width: 30%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .logo-img {
   width: 150px;
@@ -317,12 +318,12 @@ svg:not(:root) {
   }
   .introduction-text {
     flex-direction: column;
-    padding: 3rem 0 0 0;
+    padding: 0;
   }
   .text-introduciton {
     width: 100%;
     border-right: none;
-    padding: 0 0 2rem 0;
+    padding: 3rem 0 3rem 0;
     border-bottom: 2px solid var(--dark-blue);
   }
   .introduction-texts {
@@ -355,7 +356,7 @@ svg:not(:root) {
     margin: 3rem auto;
   }
   .logo-img {
-    height: 50px;
+    height: 65px;
   }
   .nav-itens {
     gap: 0.5rem;
@@ -363,8 +364,8 @@ svg:not(:root) {
   .introduction-subtitle {
     padding: 2rem 0 0 0;
   }
-  .introduction-text {
-    padding: 2rem 0 0 0;
+  .text-introduciton {
+    padding: 2rem 0 2rem 0;
   }
   .description-texts {
     width: 100%;

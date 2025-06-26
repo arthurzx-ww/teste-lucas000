@@ -22,6 +22,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: var(--dark-blue);
 }
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+}
 .introduction-content,
 .description-content,
 .footer-content {
@@ -227,6 +236,7 @@ body {
   padding: 5rem 0 0 0;
   align-items: center;
   justify-content: center;
+  animation: pulse 3.5s infinite;
 }
 .button-description {
   text-decoration: none;
